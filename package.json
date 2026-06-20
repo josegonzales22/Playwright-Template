@@ -1,0 +1,16 @@
+{
+    "name": "playwright-template",
+    "version": "1.0.0",
+    "scripts": {
+        "test:all": "playwright test",
+        "test:chrome": "playwright test --project=\"Chromium\"", 
+        "test:firefox": "playwright test --project=\"Firefox\"",
+        "test:webkit": "playwright test --project=\"WebKit\"",
+        "test:ui": "playwright test --ui"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.40.0",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
