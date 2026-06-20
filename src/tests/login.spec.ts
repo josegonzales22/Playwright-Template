@@ -2,7 +2,7 @@ import { test } from '../fixtures/baseFixture';
 import { expect } from '@playwright/test';
 
 test.describe('Login Suite', () => {
-  test('Login exitoso', async ({ loginPage, page, takeScreenshot }) => {
+  test('Login Test', async ({ loginPage, page, takeScreenshot }) => {
     // 1. Navegar
     await loginPage.navigate('/login');
     await takeScreenshot('login-loaded');
